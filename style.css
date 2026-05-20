@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    /* Background */
+    background-image: url('Background.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Kotak putih */
+header {
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+
+    background: rgba(255,255,255,0.8);
+
+    border-radius: 20px;
+
+    text-align: center;
+}
